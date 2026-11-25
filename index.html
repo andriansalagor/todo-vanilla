@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>I miei task</title>
+</head>
+
+<body>
+
+  <main>
+
+    <h1>I miei task</h1>
+
+    <!-- Benvenuto persistente -->
+    <div id="benvenuto"></div>
+
+    <!-- Form per aggiungere task -->
+    <form id="form-task">
+      <input
+        type="text"
+        id="campo-task"
+        placeholder="Scrivi qui un task..."
+        autocomplete="off"
+      >
+
+      <button type="submit">Aggiungi</button>
+    </form>
+
+    <!-- Lista dei task -->
+    <ul id="lista"></ul>
+
+    <!-- Contatore -->
+    <p id="info"></p>
+
+    <!-- Messaggio dinamico -->
+    <p id="messaggio"></p>
+
+    <!-- Azioni aggiuntive -->
+    <div id="azioni"></div>
+
+  </main>
+
+  <script type="module" src="/src/main.js"></script>
+
+</body>
+</html>
